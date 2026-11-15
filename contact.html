@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b0b0e">
+<meta name="description" content="David Bognet - Cybersecurity student portfolio at Miva Open University">
+<title>Contact | David Bognet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="brand" href="index.html">David Bognet</a>
+  <button id="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">Menu</button>
+  <nav aria-label="Main navigation"><ul id="nav-links"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="planner.html">Planner</a></li><li><a href="contact.html" class="active" aria-current="page">Contact</a></li></ul></nav>
+</header>
+<main id="main">
+<section class="block narrow">
+  <h1>Contact me</h1>
+  <p>Email: <a href="mailto:davidbognet@gmail.com">davidbognet@gmail.com</a> &middot; Phone: 0913 810 1852</p>
+  <form id="contact-form" novalidate>
+    <label for="name">Name</label><input id="name" type="text" autocomplete="name"><p class="error" id="name-error"></p>
+    <label for="email">Email address</label><input id="email" type="email" autocomplete="email"><p class="error" id="email-error"></p>
+    <label for="phone">Phone number</label><input id="phone" type="tel" autocomplete="tel" inputmode="numeric"><p class="hint">Digits only, for example 08012345678.</p><p class="error" id="phone-error"></p>
+    <label for="message">Message</label><textarea id="message" rows="5" maxlength="500"></textarea><p class="char-count" id="char-count">0 / 500</p><p class="error" id="message-error"></p>
+    <button class="btn" type="submit">Send message</button>
+    <p id="form-success" class="success" role="status"></p>
+  </form>
+</section>
+</main>
+<footer class="site-footer">
+  <p>&copy; <span id="year">2026</span> David Bognet &middot; Cybersecurity, Miva Open University</p>
+  <p><a href="mailto:davidbognet@gmail.com">davidbognet@gmail.com</a> &middot; 0913 810 1852</p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
